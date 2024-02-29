@@ -1,0 +1,49 @@
+body,h2,h3,ul{
+    margin: 0;
+    padding: 0;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+main {
+    background-color: #34312f;
+    color: white;
+}
+
+header a i{
+    color: yellow;
+    font-size: 50px;
+    padding: 0.3em;
+}
+
+.acerca-imagen img{
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    background-color:rgb(153, 77, 0);
+}
+
+header{
+    display: flex;
+    background-color: rgb(153, 77, 0);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display:flex;
+    gap: 1em;
+}
+
+header nav ul li a{
+    color: white;
+    font-size: larger;
+}
