@@ -24,10 +24,29 @@ header a i{
 .acerca-imagen img{
     width: 200px;
     height: 200px;
+
+}
+.acerca-imagen{
+    text-align: center;
+}
+
+.seccion-2{
+    text-align: center;
 }
 
 footer{
     background-color:rgb(153, 77, 0);
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3em 0 3em;
+}
+
+footer a{
+    color: white;
+    font-size: larger;
 }
 
 header{
