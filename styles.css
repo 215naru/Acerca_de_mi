@@ -48,6 +48,9 @@ footer a{
     color: white;
     font-size: larger;
 }
+footer h3{
+    color: white;
+}
 
 header{
     display: flex;
