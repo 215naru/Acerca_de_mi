@@ -36,6 +36,7 @@ header a i{
 
 footer{
     background-color:rgb(153, 77, 0);
+    width: 100%;
 }
 
 footer ul{
@@ -44,12 +45,25 @@ footer ul{
     margin: 0 3em 0 3em;
 }
 
-footer a{
+footer div nav ul a{
     color: white;
     font-size: larger;
 }
+
+footer .fa-solid{
+    color: yellow;
+    position: fixed;
+    bottom: 22px;
+    right: 39px;
+    font-size: 30px;
+}
+
 footer h3{
     color: white;
+}
+
+#footer {
+    padding: 1em;
 }
 
 header{
@@ -68,4 +82,33 @@ header nav ul{
 header nav ul li a{
     color: white;
     font-size: larger;
+}
+
+.seccion-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.seccion-2 img{
+    width: 100%;
+}
+
+.container-t{
+    display: flex;
+    justify-content: center;
+}
+
+.Trabajos{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    background-color: black;
+}
+
+.trabajo img{
+    display: block;
+    height: 400px;
+    width: 400px;
 }
